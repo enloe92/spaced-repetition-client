@@ -1,0 +1,23 @@
+.container{
+    margin-right: 10%;
+    margin-left: 10%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin: auto;
+}
+
+.dashHeader{
+    margin-right: 15%;
+    margin-left: 15%;
+    text-align: center;
+    padding: 10px;
+}
+
+@media all and (min-width: 800px) {
+    .dashHeader{
+        margin-right: 35%;
+        margin-left: 35%;
+    }
+}
